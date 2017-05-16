@@ -126,6 +126,6 @@ class WebDriver(object):
         rst = [locaX, locaY]
         return rst
 
-    def imp_wait(self, time):
-        self.driver.implicitly_wait(time)
+    # def imp_wait(self, time):
+    #     self.driver.implicitly_wait(time)
 
